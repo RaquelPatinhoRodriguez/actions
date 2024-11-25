@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Saludar:
+     runs-on: ubuntu-20.04
+     steps:
+       - run: echo "hola Caracola"  
+       - run : echo "Chao pescao"    
